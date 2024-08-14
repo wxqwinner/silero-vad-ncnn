@@ -27,3 +27,14 @@ Generate silero.jit and then convert it via the old pnnx version.
 
 - compare.py
 Compare the original jit model with the generated jit model and the ncnn model.
+
+## Cpp implementation
+- implementtion silero-vad in ncnn cpp code.
+- please modify the ncnn include/link path in CMakeLists.txt first
+- build step as follows:
+``` shell
+    cd vad-cpp
+    mkdir build && cd build
+    cmake ..
+    make -j4
+```
