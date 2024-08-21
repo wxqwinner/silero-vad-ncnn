@@ -17,7 +17,7 @@ the ncnn model.
 - main.py
 demo scripts.
 - convert.py
-Conversion script to generate 'silero.jit', which also supports ncnn model by pnnx, [but there are some issues](https://github.com/pnnx/pnnx/issues/161)
+Conversion script to generate 'silero.jit', which also supports ncnn model by pnnx, ~~[but there are some issues](https://github.com/pnnx/pnnx/issues/161)~~, pnnx==20240819 fixed.
 Generate silero.jit and then convert it via the old pnnx version.
 [pnnx-20231010-ubuntu.zip](https://github.com/pnnx/pnnx/releases/tag/20231010) work!!!
 
